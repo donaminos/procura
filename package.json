@@ -1,0 +1,15 @@
+{
+  "name": "procura",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @procura/nexus dev",
+    "build": "pnpm --filter @procura/nexus build",
+    "lint": "pnpm --filter @procura/nexus lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
