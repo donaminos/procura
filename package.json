@@ -7,9 +7,14 @@
   "scripts": {
     "dev": "pnpm --filter @procura/nexus dev",
     "build": "pnpm --filter @procura/nexus build",
-    "lint": "pnpm --filter @procura/nexus lint"
+    "lint": "pnpm --filter @procura/nexus lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3"
+  }
 }
