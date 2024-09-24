@@ -2,7 +2,7 @@ import { Header } from "@/components/header/Header";
 
 export default function Homepage() {
   return (
-    <div className="bg-gray-900">
+    <div>
       <Header />
       <div className="relative isolate overflow-hidden pt-14 h-screen">
         <img

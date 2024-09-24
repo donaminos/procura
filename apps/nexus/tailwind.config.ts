@@ -1,3 +1,5 @@
+import twForms from "@tailwindcss/forms";
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -14,6 +16,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [twForms],
 };
 export default config;

@@ -1,4 +1,5 @@
 import { navigation } from "@/components/header/constants";
+import { Logo } from "@/components/header/Logo";
 import { MobileNavigation } from "@/components/header/MobileNavigation";
 
 export const Header = () => {
@@ -9,9 +10,7 @@ export const Header = () => {
         className="flex items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="text-3xl font-bold text-white">Procura</span>
-          </a>
+          <Logo />
         </div>
 
         <div className="flex lg:hidden"></div>
@@ -28,8 +27,11 @@ export const Header = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
-            Log in <span aria-hidden="true">&rarr;</span>
+          <a
+            href="/signin"
+            className="text-sm font-semibold leading-6 text-white"
+          >
+            Sign in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
 
