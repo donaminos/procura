@@ -8,6 +8,7 @@
     "dev": "pnpm --filter @procura/nexus dev",
     "build": "pnpm --filter @procura/nexus build",
     "lint": "pnpm --filter @procura/nexus lint",
+    "lint:fix": "pnpm --filter @procura/nexus lint --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\""
   },
   "keywords": [],

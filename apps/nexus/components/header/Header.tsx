@@ -1,5 +1,5 @@
-import { MobileNavigation } from "@/components/header/MobileNavigation";
 import { navigation } from "@/components/header/constants";
+import { MobileNavigation } from "@/components/header/MobileNavigation";
 
 export const Header = () => {
   return (
