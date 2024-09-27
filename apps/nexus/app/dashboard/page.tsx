@@ -19,7 +19,7 @@ export default async function DashboardPage() {
           <div className="flex justify-center">
             <Logo />
           </div>
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight ">
             Dashboard {data.user.user_metadata.full_name}
           </h2>
         </div>
